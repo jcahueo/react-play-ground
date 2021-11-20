@@ -1,2 +1,3 @@
-# react-play-ground
-Repository to test react library
+# React Playground
+
+This project tests many parts of react
