@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import ListKeys from "./tests/ListKeys";
 import IndexAsKey from "./tests/listKeys/IndexAsKey";
 import IdAsKey from "./tests/listKeys/IdAsKey";
+import Logo from "./Logo";
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
           path="/id-as-key"
           element={<ListKeys ListItem={IdAsKey} title="Id as a Key" />}
         />
-        <Route exact path="/" />
+        <Route exact path="/" element={<Logo />} />
       </Routes>
     </BrowserRouter>
   );
