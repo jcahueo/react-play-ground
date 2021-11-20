@@ -13,7 +13,8 @@ describe("Keys in list", () => {
     const linkElement = screen.getByText("Index as Key in lists");
     expect(linkElement).toBeInTheDocument();
   });
-  test("renders Index as a key", () => {
+
+  test("renders Id as a key", () => {
     render(<App />);
     const linkElement = screen.getByText("Unique Id as Key in lists");
     expect(linkElement).toBeInTheDocument();
